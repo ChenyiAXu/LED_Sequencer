@@ -1,0 +1,39 @@
+Added Component: Designator=A1(ARDUINO_A000066)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "{'manufacturer': u'Arduino'}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ARDUINO UNO REV3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J1(TB00250002BE)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "TB002-500-02BE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/tb002-500-02be/cui-devices?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://eu.mouser.com/datasheet/2/670/tb002_500-1550579.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "10.4mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "CUI Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "TB002-500-02BE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "490-TB002-500-02BE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TB002-500-02BE?qs=vLWxofP3U2x9716kcgva%2Fw%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=U1(314010001)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://cdn-shop.adafruit.com/datasheets/Digital+humidity+and+temperature+sensor+AM2302.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "25.1mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Seeed Studio"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "314010001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "713-314010001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Seeed-Studio/314010001?qs=XeJtXLiO41Rct75wpr%2Fpbg%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetA1_5V Pin=A1-5V
+Added Pin To Net: NetName=NetA1_5V Pin=J1-2
+Added Pin To Net: NetName=NetA1_5V Pin=U1-1
+Added Net: Name=NetA1_5V
+Added Pin To Net: NetName=NetA1_D2 Pin=A1-D2
+Added Pin To Net: NetName=NetA1_D2 Pin=U1-2
+Added Net: Name=NetA1_D2
+Added Pin To Net: NetName=NetA1_GND_1 Pin=A1-GND_1
+Added Pin To Net: NetName=NetA1_GND_1 Pin=J1-1
+Added Pin To Net: NetName=NetA1_GND_1 Pin=U1-3
+Added Net: Name=NetA1_GND_1
+Added Member To Class: ClassName=humidity sensor Member=Component A1 A000066
+Added Member To Class: ClassName=humidity sensor Member=Component J1 Terminal Block
+Added Member To Class: ClassName=humidity sensor Member=Component U1 Humidity Sensor DHT22
