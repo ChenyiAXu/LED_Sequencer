@@ -21,9 +21,6 @@ Refer to the schematic design for the LED Sequencer:
 - **Define Board Shape**: Set board dimensions by going to `Design` -> `Redefine board shape` and set to 60mm x 25mm.
 - **Component Placement**: Place components as per the schematic layout.
 ### Routing the Printed Circuit Board
-
-For effective PCB routing:
-
 #### Layer Management
 - **Access Layers**: Navigate to `Design` -> `Layer Stack Manager` to configure the PCB layers according to your project requirements.
 
@@ -43,5 +40,23 @@ For effective PCB routing:
 - **Ground Plane Management**:
   - For creating isolated areas in the ground plane, go to `Place` -> `Polygon Pour Cutout`.
   - Set the properties to `Net: GND` and `Layer: Bottom Layer` to define the cutout parameters.
+
+### Generate Gerber and Drill Files
+
+#### Gerber Files
+- **Access Gerber Files**: Navigate to `File` -> `Fabrication Outputs` -> `Gerber Files`.
+- **Plot Layers**: Click on `Plot Layers` and select `Select Used` to ensure only the necessary layers are included in the output.
+
+#### NC Drill Files
+- **Generate Drill Files**: Go to `File` -> `Fabrication Output` -> `NC Drill Files` to produce the drill files required for PCB manufacturing.
+
+#### Assembly Outputs
+- **Pick and Place Files**: Navigate to `File` -> `Assembly Outputs` -> `Generate Pick and Place Files`.
+- **Format Selection**: Choose the `Formats: Text` option to ensure the files are accessible and usable for assembly processes.
+
+#### Visualization
+- **Online Viewing**: Utilize the `Altium online PCB viewer` to visually inspect and review the Gerber and assembly files. This step helps in verifying the layout before sending it off for manufacturing.
+![image](https://github.com/ChenyiAXu/Altium_Project/assets/115749117/d10116bd-7813-4b8f-9cf1-79dbe39d1422)
+
 
 
