@@ -21,5 +21,27 @@ Refer to the schematic design for the LED Sequencer:
 - **Define Board Shape**: Set board dimensions by going to `Design` -> `Redefine board shape` and set to 60mm x 25mm.
 - **Component Placement**: Place components as per the schematic layout.
 ### Routing the Printed Circuit Board
-For PCB routing:
-- **Layer Management**: Access `Design` -> `Layer Stack Manager` to configure the PCB layers.
+
+For effective PCB routing:
+
+#### Layer Management
+- **Access Layers**: Navigate to `Design` -> `Layer Stack Manager` to configure the PCB layers according to your project requirements.
+
+#### Setting Rules and Violations
+- **Open Panels**: Navigate to `Panels` -> `PCB Rules and Violations` to set up and monitor design constraints.
+  - **Clearance**: Set `minimum clearance` to 1.3mm.
+  - **Width Constraint**: Define the trace width with `Min width` at 0.3mm and `Max width` at 1mm.
+  - **Routing Via Style**: Adjust via settings with `Min/Max/Preferred Diameter` at 0.6mm and `Min/Max/Preferred Via Hole Size` at 0.3mm.
+  - **Silk to Solder Mask Clearance**: Set `Silk to Solder Mask Clearance` at 0.1mm.
+  - **Unrouted Net Constraints**: Ensure all connections are complete by checking `unrouted net constraints`.
+
+#### Interactive Routing
+- **Manual Routing**: Utilize the `interactive routing` tool available under the `Routing` menu to manually draw each connection. Ensure each trace complies with the established design rules to achieve optimal placement for signal integrity and manufacturability.
+- **Design Rule Check**: 
+  - Navigate to `Tools` -> `Design Rule Check` to verify the board against the set design rules.
+  - Ensure there are no errors reported in the Design Rule Verification Report.
+- **Ground Plane Management**:
+  - For creating isolated areas in the ground plane, go to `Place` -> `Polygon Pour Cutout`.
+  - Set the properties to `Net: GND` and `Layer: Bottom Layer` to define the cutout parameters.
+
+
