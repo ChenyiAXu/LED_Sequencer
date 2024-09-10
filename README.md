@@ -26,7 +26,7 @@ Refer to the schematic design for the LED Sequencer:
 
 #### Setting Rules and Violations
 - **Open Panels**: Navigate to `Panels` -> `PCB Rules and Violations` to set up and monitor design constraints.
-  - **Clearance**: Set `minimum clearance` to 1.3mm.
+  - **Clearance**: Set `minimum clearance` to 0.3mm.
   - **Width Constraint**: Define the trace width with `Min width` at 0.3mm and `Max width` at 1mm.
   - **Routing Via Style**: Adjust via settings with `Min/Max/Preferred Diameter` at 0.6mm and `Min/Max/Preferred Via Hole Size` at 0.3mm.
   - **Silk to Solder Mask Clearance**: Set `Silk to Solder Mask Clearance` at 0.1mm.
